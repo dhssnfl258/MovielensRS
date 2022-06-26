@@ -21,8 +21,10 @@
 </ul>
 
 <h2>movielens dataset 을 local에 저장후 이용하였습니다.</h2>
-  -dataset
+<br>
 <h2>☄️Trouble shooting</h2>
-  -프론트단 js 적용후 form 에 텍스트 입력이 불가한 상태.(해결)
-  -reco.py(RS) model export 시에 값이 출력이 되지 않는 현상 발생(해결)
-  -추가로 SVG 기능 구현.(model적용 실패) 원인 파악중.
+<ul>
+  <li>-프론트단 js 적용후 form 에 텍스트 입력이 불가한 상태.(해결)</li>
+  <li>-reco.py(RS) model export 시에 값이 출력이 되지 않는 현상 발생(해결)</li>
+  <li>  -추가로 SVG 기능 구현.(model적용 실패) 원인 파악중.</li>
+</ul>
