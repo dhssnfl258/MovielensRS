@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+<form id="form1" name="form1" method="post">
+
+    <input type ="text">
+
+    <input type="button" value="확인" onclick="test1(); return false;">
+</form>
+
+<script>
+    function test1(){
+        var formData = $("#form1").serialize();
+
+        $.ajax({
+            cache : false,
+            url : "$/login", // 요기에
+            type : 'POST',
+            data : formData,
+            success : function(data) {
+                var jsonObj = JSON.parse(data);
+            }, // success
+
+            error : function(xhr, status) {
+                alert(xhr + " : " + status);
+            }
+        }); // $.ajax */
+    }
+</script>
+</body>
+</html>
