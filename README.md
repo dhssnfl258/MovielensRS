@@ -1,6 +1,7 @@
 <h1>📊Movielens RS</h1>
 <br>
 <h2>⭐️프로젝트 설명</h2>
+<a href="https://docs.google.com/presentation/d/1m5mpMeXA7DS0LoB0l7j_oKYmMhfOiLck_gcBcqoKTFo/edit?usp=sharing">코드 간략 설명</a>
 <p>
   Movielens dataset을 이용하여 추천시스템을 구현해본다.
   </p>
